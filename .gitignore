@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# custom
+/minikube-development-with-build-tool.iml
+/.idea/
