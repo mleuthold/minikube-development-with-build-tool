@@ -24,9 +24,9 @@ def build(ctx, docs=False):
         ctx.run("sphinx-build docs docs/_build")
 
 @task
-def check_dependencies():
+def check_dependencies(ctx):
     """Checking all necessary binaries to build and deploy this software."""
-    dependencies = ['python3', 'minikube', 'docker', 'git', 'helm', 'kubectl', 'svn']
+    dependencies = ['python3', 'minikube', 'docker', 'git', 'helm', 'kubectl']
     for dependency in dependencies:
         if not shutil.which(dependency):
             print("Please install %s" % dependency)
