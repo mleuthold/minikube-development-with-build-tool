@@ -9,4 +9,4 @@ helm list
 helm repo add confluentinc https://raw.githubusercontent.com/confluentinc/cp-helm-charts/master
 helm repo update
 
-helm install --set cp-schema-registry.enabled=false,cp-kafka-rest.enabled=false,cp-kafka-connect.enabled=false confluentinc/cp-helm-charts
+helm upgrade --install my-name confluentinc/cp-helm-charts --set cp-schema-registry.enabled=false,cp-kafka-rest.enabled=false,cp-kafka-connect.enabled=false,cp-ksql-server.enabled=false,cp-kafka.nodeport.enabled=true

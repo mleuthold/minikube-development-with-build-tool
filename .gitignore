@@ -106,3 +106,4 @@ venv.bak/
 # custom
 /minikube-development-with-build-tool.iml
 /.idea/
+/Pipfile.lock
