@@ -107,3 +107,5 @@ venv.bak/
 /minikube-development-with-build-tool.iml
 /.idea/
 /Pipfile.lock
+/helm-chart/helm-chart-0.1.0.tgz
+/helm-chart/helm-chart-0.1.1.tgz

@@ -1,0 +1,8 @@
+name: helm-chart
+description: Deploy a basic Alpine Linux pod
+version: 0.1.1
+home: https://github.com/helm/helm
+sources:
+  - https://github.com/helm/helm
+appVersion: 3.3
+icon: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
